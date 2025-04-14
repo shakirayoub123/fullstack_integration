@@ -1,0 +1,21 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "**K3d Fusion** is an all-in-one solution for managing your business needs, including invoicing, sales, licensing, and inventory management. Simplify your operations with an intuitive and powerful platform designed to scale with your business.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
